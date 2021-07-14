@@ -1,0 +1,71 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Noto Sans JP', sans-serif;
+     
+  }
+html{
+  width: 100%;
+  height: 100%;
+}
+
+  header{
+    background: #f48f57;
+    height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   color: #542222e3;
+
+    
+  }
+  .redes-sociais img{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+  }
+
+
+.content{
+  display:flex;
+  height:92vh;
+  background-image: url('./assets/bg.png');
+  align-items:center;
+  justify-content: flex-end;
+
+}  
+.container {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #542222e3;
+  margin-right: 2rem;
+   
+ }
+
+ .container p{
+   padding: .8rem;
+
+ }
+ .container p:nth-child(2){
+   font-weight: 700;
+ }
+ 
+ .container p:nth-child(3){
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+input{
+  padding: .2rem;
+  border-radius: 10px;
+}
+
+#input{
+  background-color: #f2ded5;
+}
+input:nth-child(2){
+  background-color: #feb693;
+  color: #542222e3; 
+ 
+  
+}
+ /*content, container, p p p form input input*/
