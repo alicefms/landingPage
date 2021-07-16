@@ -16,9 +16,12 @@ html{
     align-items: center;
     justify-content: space-between;
    color: #542222e3;
-
-    
   }
+  header p{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 2.5rem;
+  }
+
   .redes-sociais img{
     height: 20px;
     width: 20px;
@@ -29,7 +32,7 @@ html{
 .content{
   display:flex;
   height:92vh;
-  background-image: url('./assets/bg.png');
+  background-image: url('./assets/bg.png') ;
   align-items:center;
   justify-content: flex-end;
 
@@ -39,12 +42,13 @@ html{
   text-align: center;
   color: #542222e3;
   margin-right: 2rem;
+  max-width: 40%;
    
  }
 
  .container p{
    padding: .8rem;
-
+  
  }
  .container p:nth-child(2){
    font-weight: 700;
@@ -64,8 +68,5 @@ input{
 }
 input:nth-child(2){
   background-color: #feb693;
-  color: #542222e3; 
- 
-  
+  color: #542222e3;   
 }
- /*content, container, p p p form input input*/
